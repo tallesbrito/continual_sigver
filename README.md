@@ -2,7 +2,7 @@
 
 This repository contains model and inverted data that can be applied to perform knowledge distillation about real offline signature characteristics to other backbones or architectures.
 
-The method by which the data was inverted from the SigNet model is described in the paper "Robust Handwritten Signature Representation with Continual Learning of Synthetic Data over Predefined Real Feature Space," submitted to the International Conference on Document Analysis and Recognition.
+The method by which the data was inverted from the SigNet model is described in the paper "Robust Handwritten Signature Representation with Continual Learning of Synthetic Data over Predefined Real Feature Space" submitted to the International Conference on Document Analysis and Recognition.
 
 # Usage
 
