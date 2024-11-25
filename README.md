@@ -1,8 +1,10 @@
-# Robust Handwritten Signature Representation with Continual Learning of Synthetic Data over Predefined Real Feature Space
+# Expanding Generalization of Handwritten Signature Feature Representation through Data Knowledge Distillation
 
-This repository contains model and inverted data that can be applied to perform knowledge distillation about real offline signature characteristics to other backbones or architectures.
+This repository contains model and inverted data that can be applied to perform knowledge distillation about real offline handwritten signature characteristics to other backbones and architectures.
 
-The method by which the data was inverted from the SigNet model is described in the paper "Robust Handwritten Signature Representation with Continual Learning of Synthetic Data over Predefined Real Feature Space" submitted to the International Conference on Document Analysis and Recognition.
+The method to perform distillation from SigNet model is described in the paper:  T. B. Viana, V. L. F. Souza, A. L. I. Oliveira, R. M. O. Cruz, and R. Sabourin, “Robust handwritten signature representation with contin- ual learning of synthetic data over predefined real feature space,” in Document Analysis and Recognition - ICDAR 2024, E. H. Barney Smith, M. Liwicki, and L. Peng, Eds. Cham: Springer Nature Switzerland, 2024, pp. 233–249.
+
+An extended analysis of the proposed method is currently submitted to the IEEE Transactions on Information Forensics & Security journal.
 
 # Usage
 
@@ -13,7 +15,7 @@ Inverted data is provided in a single .npz file, with the following components:
 * ```x```: Inverted examples (numpy array of size N x 1 x H x W).
 * ```y```: The respective user of the inverted example (numpy array of size N).
 
-The inverted examples have a 150x220 size, which is the input size of the SigNet model.
+The inverted examples have a 150x220 size, which is the input size of the SigNet model. You should not apply any transformations (crop, normalization, etc.) to this data.
 
 ## Distilling knowledge with the SigNet model and inverted data
 
