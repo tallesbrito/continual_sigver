@@ -2,7 +2,7 @@
 
 This repository contains model and inverted data that can be applied to perform knowledge distillation about real offline handwritten signature characteristics to other backbones and architectures.
 
-The method to perform distillation from SigNet model is described in the paper:  T. B. Viana, V. L. F. Souza, A. L. I. Oliveira, R. M. O. Cruz, and R. Sabourin, “Robust handwritten signature representation with contin- ual learning of synthetic data over predefined real feature space,” in Document Analysis and Recognition - ICDAR 2024, E. H. Barney Smith, M. Liwicki, and L. Peng, Eds. Cham: Springer Nature Switzerland, 2024, pp. 233–249.
+The method to perform distillation from SigNet model is described in the paper:  T. B. Viana, V. L. F. Souza, A. L. I. Oliveira, R. M. O. Cruz, and R. Sabourin, “Robust handwritten signature representation with continual learning of synthetic data over predefined real feature space,” in Document Analysis and Recognition - ICDAR 2024, E. H. Barney Smith, M. Liwicki, and L. Peng, Eds. Cham: Springer Nature Switzerland, 2024, pp. 233–249.
 
 An extended analysis of the proposed method is currently submitted to the IEEE Transactions on Information Forensics & Security journal.
 
