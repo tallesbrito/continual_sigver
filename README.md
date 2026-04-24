@@ -101,6 +101,6 @@ When training WD or WI classifiers, the trained_model is a .pth file (a model tr
 
 ## Download model and data for distillation
 
-* Pre-trained SigNet model for distillation: ([link](https://drive.google.com/file/d/14FNyw5ay1PLqB_jRkKvhkylj51LDZ08B/view?usp=drive_link))
-* Inverted data using deep inversion with competition: ([link](https://drive.google.com/file/d/1El-9S-RKGMBmYy4G26dtvKEgAYoX2xpI/view?usp=drive_link))
+* Pre-trained SigNet model for distillation: ([link](https://drive.google.com/file/d/12Wg469rWpZ0jeZUxK8ZQDN8qv68OwYNx/view?usp=sharing))
+* Inverted data using deep inversion with competition: ([link](https://drive.google.com/file/d/1lFJBysBDiOog5Sk7rFHlpusrV9PD3jkA/view?usp=sharing))
 
